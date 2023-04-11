@@ -4,7 +4,7 @@
 
 Unlike Pyro which relies on PyTorch multiprocessing utils for
 parallelization on a single GPU/TPU device, this simple 
-batched implementation of HMC algorithm allows efficient memory usage for without 
+batched implementation of HMC algorithm allows efficient memory usage without 
 overhead from multiprocessing.
 
 For the implementation, see __hamilonian_mc.py__ file. 
