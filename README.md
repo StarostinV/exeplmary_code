@@ -7,6 +7,9 @@ parallelization on a single GPU/TPU device, this simple
 batched implementation of HMC algorithm allows efficient memory usage for without 
 overhead from multiprocessing.
 
+For the implementation, see __hamilonian_mc.py__ file. 
+Below is a brief illustration of an algorithm in action with 32k chains processed in parallel.
+
 ```python
 """
 Illustration of an algorithm in action.
